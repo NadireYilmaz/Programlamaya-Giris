@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+int main()
+{
+    int a;
+    int SayininFak=1;
+    printf("faktoriyeli alinacak sayiyi girini:");
+    scanf("%d",&a);
+    for( a ;a>=1;a--)
+    {
+        SayininFak*=a;
+    }
+    printf("\Sayinin faktoriyel:%d",SayininFak);
+    getch();
+    return 0;
+}
