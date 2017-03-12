@@ -1,0 +1,36 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+    int puan;
+    cout <<"Notunuzu giriniz:";
+    cin >>puan;
+    if(puan>100 || puan<0)
+    {
+        cout<<"Gecersiz bir deger girdiniz lütfen 0 ile 100 arasýnda bir deger giriniz";
+    }
+        else if(puan>=90)
+
+        {
+            cout<<"Notunuz:A";
+        }
+        else if(puan>=80)
+        {
+            cout<<"Notunuz:B";
+        }
+
+       else  if ( puan>=70)
+         {
+             cout<<"Notunuz:C";
+         }
+         else if(puan>0)
+         {
+             cout<<"Notunuz:F";
+         }
+
+    getch();
+    return 0;
+}
