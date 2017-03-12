@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+int main()
+{
+    int yas,buYil,DogumYili;
+    printf("Hangi yilda oldugunuzu yaziniz:");
+    scanf("%d",&buYil);
+    printf("\nYasinizi giriniz:");
+    scanf("%d",&yas);
+    DogumYili=buYil-yas;
+    printf("\nDogum yiliniz:%d",DogumYili);
+    getch();
+    return 0;
+}
