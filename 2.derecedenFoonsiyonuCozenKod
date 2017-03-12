@@ -1,0 +1,19 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,sonuc;
+    cout <<"Birinci sayiyi giriniz:";
+    cin >>a;
+    cout<<"\nIkinci sayiyi giriniz :";
+    cin >>b;
+    cout <<"\nUcuncu sayiyi giriniz:";
+    cin >>c;
+    sonuc=((a*a)+(b*b)+3*c);
+    cout << "\nDenklemin sonucu:"<<sonuc << endl;
+    getch();
+    return 0;
+}
