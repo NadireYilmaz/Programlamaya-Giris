@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  int m,n,yildizSayisi=1,boslukSayisi=15;
+  for (n=0;n<15;n++)
+  {
+      for(m=0;m<boslukSayisi;m++)
+      {
+          printf(" ");
+      }
+      for (m=0;m<yildizSayisi;m++)
+        printf("*");
+        printf("\n");
+      yildizSayisi=yildizSayisi+2;
+      boslukSayisi--;
+  }
+    return 0;
+}
